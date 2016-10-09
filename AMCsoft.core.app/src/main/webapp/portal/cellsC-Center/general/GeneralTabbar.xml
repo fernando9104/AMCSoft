@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Name:   GeneralTabbar.xml
+    Autor:  Luis F castaño
+    Date:   03-Oct-2016
+    Desc:   Estructura xml de tabs internos del modulo general.
+    
+    Autor: 
+    Date:  
+    Desc: 
+
+-->
+<tabbar margin="5"  align="left" offset="20" tabstyle="terrace" hrefmode="iframe">
+
+    <tab id="patients"       			width="auto"  selected="true"  >Pacientes</tab>
+    <tab id="pendingAppointments"   	width="auto"  disabled="true"  >Citas Pendientes</tab>
+    <tab id="canceledAppointments"  	width="auto"  disabled="true"  >Citas Canceladas</tab>
+    <tab id="completedAppointments"   	width="auto"  disabled="true"  >Citas Finalizadas</tab>
+    <tab id="diary"   					width="auto"  disabled="true"  >Agenda</tab>
+    
+</tabbar>
