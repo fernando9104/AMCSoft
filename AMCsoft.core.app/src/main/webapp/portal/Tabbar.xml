@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Name:   Tabbar.xml
+    Autor:  Luis F Castaño
+    Date:   03-Oct-2016
+    Desc:   Estructura de los Tabs principales del Portal.
+
+    Autor: 
+    Date:   
+    Desc:   
+
+-->
+
+<tabbar margin="5"  align="left"   offset="20" tabstyle="terrace" hrefmode="iframe">
+
+    <tab id="general"         	width="auto"  selected="true"	href="cellsC-Center/general/General-V.jsp">General</tab>
+    <tab id="clinicHistory"   	width="auto"  disabled="true"   >Historia Clinica	</tab>
+    <tab id="reports"        	width="auto"  disabled="true" 	>Reportes			</tab>
+    <tab id="treasury"     		width="auto"  disabled="true"	>Tesoreria			</tab>
+    <tab id="administration"    width="auto"  disabled="true"   >Administracion		</tab>
+  
+</tabbar>

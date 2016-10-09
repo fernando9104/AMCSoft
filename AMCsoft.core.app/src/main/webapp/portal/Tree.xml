@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Name:   Tree.xml
+    Autor:  Luis F Castaño
+    Date:   03-Oct-2016
+    Desc:   Estructura del Arbol principal del Portal.
+
+    Autor: 
+    Date:   
+    Desc:   
+
+-->
+<tree id="0">
+	<item id="general" im0="hospital_1.png" im1="hospital_1.png" im2="hospital_1.png" child="true" open="true" imwidth="16px" imheight="16px">
+		<itemtext><![CDATA[General]]></itemtext>
+		<item id="patients" im0="patients_4.png" im1="patients_4.png" im2="patients_4.png" imwidth="16px" imheight="16px">
+			<itemtext><![CDATA[Pacientes]]></itemtext>
+		</item>
+		<item id="diary" im0="calendar_3.png" im1="calendar_3.png" im2="calendar_3.png" imwidth="16px" imheight="16px">
+			<itemtext><![CDATA[Agenda]]></itemtext>
+		</item>
+		<item id="pendingAppointments" im0="calendar_7.png" im1="calendar_7.png" im2="calendar_7.png" imwidth="16px" imheight="16px">
+			<itemtext><![CDATA[Citas Pendientes]]></itemtext>
+		</item>
+		<item id="canceledAppointments" im0="calendar_5.png" im1="calendar_5.png" im2="calendar_5.png" imwidth="16px" imheight="16px">
+			<itemtext><![CDATA[Citas Canceladas]]></itemtext>
+		</item>
+		<item id="completedAppointments" im0="calendar_6.png" im1="calendar_6.png" im2="calendar_6.png" imwidth="16px" imheight="16px">
+			<itemtext><![CDATA[Citas Finalizadas]]></itemtext>
+		</item>
+	</item>
+	<item id="clinicHistory" im0="clinicHistory_2.png" im1="clinicHistory_2.png" im2="clinicHistory_2.png" imwidth="16px" imheight="16px">
+		<itemtext><![CDATA[Historia Clinica]]></itemtext>
+	</item>
+	<item id="reports" im0="reports_3.png" im1="reports_3.png" im2="reports_3.png" imwidth="16px" imheight="16px">
+		<itemtext><![CDATA[Reportes]]></itemtext>
+	</item>
+	<item id="administration" im0="administrator_1.png" im1="administrator_1.png" im2="administrator_1.png" imwidth="16px" imheight="16px">
+		<itemtext><![CDATA[Admnistracion]]></itemtext>
+	</item>
+	<item id="treasury" im0="money_1.png" im1="money_1.png" im2="money_1.png" imwidth="16px" imheight="16px">
+		<itemtext><![CDATA[Tesoreria]]></itemtext>
+	</item>
+</tree>
