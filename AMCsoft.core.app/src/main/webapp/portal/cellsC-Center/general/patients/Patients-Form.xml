@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Name:   Patients-Form.xml
+    Autor:  Luis F Castaño
+    Date:   15-Oct-2016
+    Desc:   Estructura xml para la Forma del modulo Pacientes( windows ).
+      
+    Autor:  
+    Date:   
+    Desc:   
+    
+-->
+<items>
+    <item type="settings" labelWidth="100"  labelAlign="left" inputWidth="100" />
+
+    <!--  Fieldset Information Patient -->
+    <item type="fieldset" name="infoPatient" label="Informacion del Paciente: " width="auto"	offsetLeft="5"	offsetTop="5">
+        
+        <item type="block" width="auto" blockOffset="0" >
+            <item type="input" name="name"      label="Nombres:"     labelWidth="60"  inputWidth="150" />
+            <item type="newcolumn" offset="15"/>
+            <item type="input" name="lastName"  label="Apellidos:"   labelWidth="60"  inputWidth="150" />
+            <item type="newcolumn" offset="15"/>
+            <item type="input" name="age"       label="Edad:"        labelWidth="40"  inputWidth="80" />
+            <item type="newcolumn" offset="15"/>
+            <item type="input" name="gender"    label="Genero:"      labelWidth="50"  inputWidth="80" />
+            <item type="newcolumn" offset="15"/>
+            <item type="input" name="DNI"        label="Numero de Identificacion:"     labelWidth="135"  inputWidth="100" />
+        </item>
+        
+        <item type="label" label="" labelHeight="1"/>
+        
+        <item type="block" width="auto" blockOffset="0" >
+            <item type="input" name="RUT"           label="RUT:"            labelWidth="60"  inputWidth="150" />
+            <item type="newcolumn" offset="15"/>
+            <item type="input" name="address"       label="Direccion:"      labelWidth="60"  inputWidth="290" />
+            <item type="newcolumn" offset="15"/>
+            <item type="input" name="phoneMovil"    label="Telefono Movil:" labelWidth="80"  inputWidth="100" />
+            <item type="newcolumn" offset="15"/>
+            <item type="input" name="phoneHome"     label="Telefono Casa:"  labelWidth="85"  inputWidth="100" /> 
+        </item>
+        
+        <item type="label" label="" labelHeight="1"/>
+        
+        <item type="block" width="auto" blockOffset="0" >
+            <item type="input" name="email"         label="Email:"                  labelWidth="60"  inputWidth="250" />
+            <item type="newcolumn" offset="15"/>
+            <item type="calendar" name="birthdate"  label="Fecha de Nacimiento:"    labelWidth="115" inputWidth="100" dateFormat="%m/%d/%Y" serverDateFormat="%Y-%m-%d" calendarPosition="bottom" weekStart="7" enableTime="false" readonly="true" />
+            <item type="newcolumn" offset="15"/>
+            <item type="input" name="maritalStatus" label="Estado Civil:"           labelWidth="80"  inputWidth="100" />
+            <item type="newcolumn" offset="15"/>
+            <item type="input" name="citizenship"   label="Nacionalidad:"           labelWidth="85"  inputWidth="135" /> 
+        </item>
+        
+        <item type="label" label="" labelHeight="1"/>
+
+        <item type="block" width="auto" blockOffset="0" >
+          <item type="input" name="observations"  label="Observaciones:"     labelWidth="85"  inputHeight="50" inputWidth="525" rows="4" />
+          <item type="newcolumn" offset="15"/>
+          <item type="calendar" name="dateAdmission" label="Fecha de Ingreso:"  labelWidth="100" inputWidth="100" dateFormat="%m/%d/%Y" serverDateFormat="%Y-%m-%d" calendarPosition="bottom" weekStart="7" enableTime="false" readonly="true" />
+        </item>
+        
+        <item type="label" label="" labelHeight="1"/>
+        
+        <item type="block" width="auto" blockOffset="0" >
+            <item type="button" name="update"  offsetLeft="280" value="Actualizar Paciente" width="115" tooltip = "Actualiza o Agrega informacion del paciente."/>
+            <item type="newcolumn" offset="3" />
+            <item type="button" name="clear" width="100"  value="Limpiar Cambios" tooltip = "Borrar los cambios realizados en el formulario, para que pueda empezar de nuevo." />
+            <item type="newcolumn" offset="3" />
+            <item type="button" name="cancel" value="Cancelar" width="100" tooltip="Cancela el agregar/editar y te regresa al modo de vista."/>
+        </item> 
+           
+    </item>
+</items>

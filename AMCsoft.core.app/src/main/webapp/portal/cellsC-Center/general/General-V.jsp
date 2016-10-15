@@ -2,14 +2,14 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <!--
-    Name:   General-V.php
+    Name:   General-V.jsp
     Autor:  Luis F Castaño
     Date:   03-Oct-2016
     Desc:   Modulo Tabs Internos General.
 
-    Autor:  
-    Date:   
-    Desc:   
+    Autor: Luis F Castaño
+    Date:  15-Oct-2016 
+    Desc:  Se actualiza el modulo General.
   
 -->
 <html>
@@ -25,26 +25,26 @@ dhtmlxEvent(window,"load",function(){
    generalInit();
 });//end function dhtmlxEvent
 
-//Function Portal Init
+//Function General Init
 function generalInit(){
 	
 /* INICIALITATION  */
 
-	root	= "../"; 	//root
+    root  = "../";  //root
    
-  	//Static XML
-  	generalTabbarXML    = "GeneralTabbar.xml";    //Center Tabbar Container
+    //Static XML
+    generalTabbarXML    = "GeneralTabbar.xml";    //Center Tabbar Container
     
-	//Cells
+    //Cells
     generalTabbarCell   = "a";
 
 /* END INICIALITATION  */ 
 
 /* INSTANTIATION  */
 	
-	//main layout
-	pattern      	= "1C";
-   	generalLayout 	= new dhtmlXLayoutObject("generalLayoutDiv",pattern);
+    //main layout
+    pattern         = "1C";
+    generalLayout   = new dhtmlXLayoutObject("generalLayoutDiv",pattern);
    	
     /* Container Tabbar */
     generalTabbarContainer = generalLayout.cells(generalTabbarCell);
@@ -60,8 +60,8 @@ function generalInit(){
 
 /* LOADS  */
 	
-	//loadStruct general Tabbar
-	generalTabbar.loadStruct(generalTabbarXML + "?etc=" + new Date().getTime());
+    //loadStruct general Tabbar
+    generalTabbar.loadStruct(generalTabbarXML + "?etc=" + new Date().getTime());
 
 /* END LOADS  */
 	
@@ -72,6 +72,6 @@ function generalInit(){
 </script>
 </head>
 <body>
-	<div id="generalLayoutDiv" style="position: fixed; height: 98%; width: 99%;"></div>
+    <div id="generalLayoutDiv" style="position: fixed; height: 98%; width: 99%;"></div>
 </body>
 </html>

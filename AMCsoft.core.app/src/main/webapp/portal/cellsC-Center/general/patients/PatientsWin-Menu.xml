@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Name:   PatientsWin-Menu.xml
+    Autor:  Luis F Castaño
+    Date:   15-Oct-2016
+    Desc:   Estructura xml para el Menu de la ventana del modulo Pacientes.
+    
+    Autor:  
+    Date:     
+    Desc:   
+    
+-->
+<menu>   
+    <item id="editPatients"     text="Editar Paciente"   img="patients_4.png" imgdis="patients_4.png"  disabled="true" >
+        <tooltip>Edita un paciente del modulo</tooltip>
+    </item>
+    <item id="sp2" type="separator"/>
+    <item id="removePatients"   text="Eliminar Paciente" img="patients_4.png" imgdis="patients_4.png"  disabled="true" >
+        <tooltip>Elimina un paciente del modulo</tooltip>
+    </item>        
+</menu>

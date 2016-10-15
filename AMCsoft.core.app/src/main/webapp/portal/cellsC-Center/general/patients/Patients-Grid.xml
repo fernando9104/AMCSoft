@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Name:   Patients-Grid.xml
+    Autor:  Luis F Castaño
+    Date:   15-Oct-2016
+    Desc:   Estructura xml para la grilla del modulo Pacientes.
+      
+    Autor:  
+    Date:   
+    Desc:   
+    
+-->
+<rows>
+    <head>
+        <beforeInit>
+            <call command='setEditable'>
+                <param>false</param>
+            </call>
+            <call command='enableMultiline'>
+                <param>true</param>
+            </call>
+        </beforeInit>
+        <column type="ro"       id="name"           width="260"    >Nombres                     </column>
+        <column type="ro"       id="lastName"       width="260"    >Apellidos                   </column>
+        <column type="ro"       id="age"            width="100"    >Edad                        </column>
+        <column type="ro"       id="gender"         width="100"    >Genero                      </column>
+        <column type="ro"       id="DNI"            width="125"    >Numero de Identificacion    </column>
+        <column type="ro"       id="phoneMovil"     width="125"    >Telefono Movil              </column>
+        <column type="ro"       id="phoneHome"      width="125"    >Telefono Casa               </column>
+        <column type="hidden"   id="RUT"                           >RUT                         </column>
+        <column type="hidden"   id="address"                       >Direccion                   </column>
+        <column type="hidden"   id="email"                         >email                       </column>
+        <column type="hidden"   id="birthdate"                     >fecha de Nacimiento         </column>
+        <column type="hidden"   id="maritalStatus"                 >Estado Civil                </column>
+        <column type="hidden"   id="citizenship"                   >Nacionalidad                </column>
+        <column type="hidden"   id="observations"                  >observaciones               </column>
+        <column type="hidden"   id="dateAdmission"                 >Fecha de Ingreso            </column>
+        <afterInit> 	
+            <call command="attachHeader"> 	
+                <param>#text_filter,#text_filter,#text_filter,#select_filter,#text_filter,#text_filter,#text_filter</param>	
+            </call>
+        </afterInit>	
+    </head>
+</rows>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Name:   Patients-Menu.xml
+    Autor:  Luis F Castaño
+    Date:   15-Oct-2016
+    Desc:   Estructura xml para el Menu del modulo Pacientes.
+    
+    Autor:  
+    Date:     
+    Desc:   
+    
+-->
+<menu>
+    <item id="addPatients"      text="Agregar Paciente"  img="patients_4.png" imgdis="patients_4.png"   disabled="true" >
+        <tooltip>Agrega un paciente al modulo</tooltip>
+    </item>    
+    <item id="sp1" type="separator"/>
+    <item id="editPatients"     text="Editar Paciente"   img="patients_4.png" imgdis="patients_4.png"  disabled="true" >
+        <tooltip>Edita un paciente del modulo</tooltip>
+    </item>   
+    <item id="sp2" type="separator"/>
+    <item id="removePatients"   text="Eliminar Paciente" img="patients_4.png" imgdis="patients_4.png"  disabled="true" >
+        <tooltip>Elimina un paciente del modulo</tooltip>
+    </item>    
+    <item id="sp3" type="separator"/>
+    <item id="viewDetail"       text="Ver Detalle"       img="patients_4.png" imgdis="patients_4.png"  disabled="true" >
+        <tooltip>Ver informacion del paciente</tooltip>
+    </item>    
+    <item id="sp4" type="separator" >
+        <userdata name="headerForm" >Formulario - Detalle de Paciente</userdata>
+        <userdata name="noteDetailText" ><![CDATA[<b>RECUERDE:<br>La informacion de este paciente podra visualizarse completamente si da click en el boton "Ver Detalle".</b>]]></userdata>
+       
+        <userdata name="noteAddText" ><![CDATA[<b>RECUERDE:
+                                        <br>Diligenciar los campos requeridos(*).<br>
+                                        Boton "Actualizar Paciente" agrega un paciente al sistema.<br>
+                                        Boton "Cancelar" anula el proceso de adicion.<br></b>]]></userdata>
+        
+        <userdata name="noteEditText" ><![CDATA[<b>RECUERDE:
+                                        <br>Podra Actualizar solo los campos permitidos.<br>
+                                        Boton "Actualizar Paciente" actualiza la informacion del paciente.<br>
+                                        Boton "Cancelar" anula el proceso de edicion.<br></b>]]></userdata>
+        
+        <userdata name="removeConfirmTitle"><![CDATA[Pacientes > Remover Paciente]]></userdata>
+        <userdata name="removeConfirmText" ><![CDATA[Esta a punto de remover al señor/a #namePatients# del modulo Paciente.<br><br> 
+                                            <b>¿Esta usted seguro de remover al paciente ahora?</b>]]></userdata>
+        <userdata name="okButton" >Si</userdata>
+        <userdata name="cancelButton" >No</userdata>                           
+    </item>
+</menu>
